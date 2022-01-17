@@ -1,0 +1,33 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.post__top {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.post__message {
+  max-width: 500px;
+}
+
+.post__message p {
+  margin-bottom: 15px;
+}
+
+.post__message img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.post__bottom {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

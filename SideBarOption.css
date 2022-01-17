@@ -1,0 +1,17 @@
+.sidebar__option .MuiSvgIcon-root {
+  color: rgb(62, 62, 255);
+}
+.sidebar__option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.sidebar__option:hover {
+  background-color: rgb(197, 197, 197);
+  border-radius: 5px;
+}
+
+.sidebar__option .MuiSvgIcon-root {
+  margin-right: 10px;
+}
